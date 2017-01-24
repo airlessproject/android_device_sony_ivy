@@ -53,8 +53,10 @@ static void import_kernel_nv(const std::string& key,
                 property_set("ro.semc.product.model", "E6553");
                 property_set("ro.semc.product.name", "Xperia Z3+");
                 property_set("ro.product.model", "E6553");
-                property_set("ro.product.name", "ivy");
-                property_set("ro.product.device", "ivy");
+                property_set("ro.product.name", "E6553");
+                property_set("ro.product.device", "E6553");
+                property_set("ro.build.product", "E6553");
+                property_set("ro.com.google.clientidbase", "android-sonyericsson");
                 property_set("ro.build.description", "ivy-user 7.0 KITAKAMI-2.2.0-170105-0147 1 dev-keys");
                 property_set("ro.build.fingerprint", "Sony/ivy/ivy:7.0/KITAKAMI-2.2.0-170105-0147/1:user/dev-keys");
         }
