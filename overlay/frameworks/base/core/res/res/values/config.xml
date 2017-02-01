@@ -332,4 +332,6 @@
     -->
     <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
 
+    <bool name="config_nightDisplayAvailable">true</bool>
+
 </resources>
