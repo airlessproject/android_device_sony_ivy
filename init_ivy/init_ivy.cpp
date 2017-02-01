@@ -44,8 +44,10 @@ static void import_kernel_nv(const std::string& key,
                 property_set("ro.semc.product.model", "E6533");
                 property_set("ro.semc.product.name", "Xperia Z3+ Dual");
                 property_set("ro.product.model", "E6533");
-                property_set("ro.product.name", "ivy_dsds");
-                property_set("ro.product.device", "ivy_dsds");
+                property_set("ro.product.name", "E6533");
+                property_set("ro.product.device", "E6533");
+                property_set("ro.build.product", "E6533");
+                property_set("ro.com.google.clientidbase", "android-sonyericsson");
                 property_set("ro.build.description", "ivy_dsds-user 7.0 KITAKAMI-2.2.0-170105-0147 1 dev-keys");
                 property_set("ro.build.fingerprint", "Sony/ivy_dsds/ivy_dsds:7.0/KITAKAMI-2.2.0-170105-0147/1:user/dev-keys");
         } else {
