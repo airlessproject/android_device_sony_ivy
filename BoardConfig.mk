@@ -31,6 +31,9 @@ SDCLANG_LTO_DEFS := device/qcom/common/sdllvm-lto-defs.mk
 
 endif
 
+# Lockscreen charging
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := E6533,E6553,ivy,ivy_dsds
 
